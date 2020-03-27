@@ -1,0 +1,68 @@
+.new-incidents-container{
+    width: 100%;
+    max-width: 960px;
+    height: 100vh;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.new-incidents-container .content{
+    width: 100%;
+    padding: 60px 96px;
+    background: #f0f0f5;
+    box-shadow: 0 0 100px rgba(0,0,0,.1);
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center 
+}
+
+.new-incidents-container .content section{
+    width: 100%;
+    max-width: 380px;
+}
+
+.new-incidents-container .content section h1{
+    margin: 64px 0 32px;
+}
+
+.new-incidents-container .content section p{
+    font-size: 18px;
+    color: #737380;
+    line-height: 32px;
+}
+
+.new-incidents-container .content form{
+    width: 100%;
+    max-width: 350px;
+}
+
+.new-incidents-container .content form input,
+.new-incidents-container .content form textarea{
+    margin-top: 8px;
+}
+
+.new-incidents-container .content form textarea{
+    width: 100%;
+    height: 140px;
+    color: #333;
+    border: 1px solid #DCDCE6;
+    border-radius: 8px;
+    padding: 16px 24px;
+    line-height: 24px;
+    resize: none;
+}
+
+.new-incidents-container .content form div.button-group{
+    display: flex;
+}
+
+.new-incidents-container .content form .button-cancel{
+    background-color: #CCC;
+    color: #222;
+    margin-right: 8px;
+}
